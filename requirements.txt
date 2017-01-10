@@ -1,0 +1,5 @@
+slackbot==0.4.1
+requests==2.12.4
+six==1.10.0
+slacker==0.9.30
+websocket-client==0.40.0

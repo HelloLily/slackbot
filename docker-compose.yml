@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  app:
+    image: "slackbot"
+    build: .
+    command: "python run.py"
+    environment:
+      - PYTHONUNBUFFERED=true
+    volumes:
+      - .:/usr/src/slackbot
+    cap_drop:
+      - ALL
