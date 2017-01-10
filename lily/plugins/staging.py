@@ -15,8 +15,6 @@ def deploy(message, branch_name='master'):
         return None
 
     build_info = heroku.start_build(branch_name)
-    message.reply('<{}|Build started> - sit back and relax!'.format(build_info.get('output_stream_url')))
-
     message.send_webapi(
         'Ok, I\'ve started a build for you!',
         json.dumps([{
