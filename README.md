@@ -1,3 +1,3 @@
-=== lily Slackbot ===
+# lily Slackbot
 
-For new she can't do very much..
+For now she can't do very much..
