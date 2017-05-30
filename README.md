@@ -1,6 +1,6 @@
 # Lily Slackbot
 
-{create a description here}
+The lily slackbot, for all your handy lily slacking.
 
 ## Status
 
